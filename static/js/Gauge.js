@@ -9,7 +9,10 @@ function buildCharts(sample) {
     // Create a variable that filters the samples for the object with the desired sample number.
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
-
+    var md = data.metadata;
+    var mdArray = md.filter(sampleObj => sampleObj.id == sample);
+    var mResult = mdArray[0]; 
+    var washFreq = parseInt(mResult.wfreq);
     // Create a variable that holds the first sample in the array.
 
 
