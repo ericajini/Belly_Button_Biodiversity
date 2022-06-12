@@ -1,5 +1,15 @@
 .jumbotron {
-    background-image: url("../images/header_image.jpg");
+    background-image: url("../images/images.jpg");
     background-size: 100% 100%;
     text-align: center;
 }
+
+h3 {
+    font-family: cursive;
+    font-style: italic;
+}
+h5 {
+    font-family: cursive;
+    font-style: italic;
+}
+
